@@ -1,0 +1,22 @@
+<form>
+
+    <input [formControl]="username">
+  
+    <input type="button" value="enter" (click)="person()" ><br><br>
+</form>
+
+
+<form [formGroup]="registrationform">
+    <input formControlName="username">
+    <input formControlName="password">
+    <!-- <input [formControl]="username">
+    <input [formControl]="password"> -->
+    <input type="button" value="username" (click)="per()" >
+</form>
+
+
+
+
+
+
+<p>reactiveform works!</p>
